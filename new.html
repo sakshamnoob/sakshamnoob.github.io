@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">ṇ
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+        body{
+            
+            box-sizing: border-box;
+
+            
+        }
+
+        .container {
+            width: 300px;
+            height: 400px;
+            align-items: center;
+            margin: 50px auto;
+            border: 2px solid black;
+            padding: 100px;
+            justify-content: space-between;
+            text-align: center;
+            background: linear-gradient(#fff,#000);
+            font-weight: 1000;
+            box-shadow: 90px 30px 20px 0px rgb(74 74 74);
+            border-radius: 10px;
+          
+        }
+        h1{
+            margin-bottom: 20px;
+            animation: hilna 5s linear infinite;
+           
+        }
+        @keyframes hilna{
+            0%{
+               background: linear-gradient(#ffff0f,red);
+            }
+            10%{
+                background: linear-gradient(#0f27ff,rgb(19, 192, 120));
+            }
+            20%{
+                background: linear-gradient(#970838,rgb(213, 228, 13));
+            }
+            40%{
+                background: linear-gradient(#0ffff3be,rgb(243, 107, 17));
+            }
+            80%{
+                background: linear-gradient(#b6e270,rgb(245, 45, 161));
+            }
+            100%{
+                background: linear-gradient(#ffff0f,red);
+            }
+        }*/
+
+        #vv {
+            display: flex;
+
+        }
+
+        #vt {
+
+            margin-bottom: 20px;
+            padding-left: 100px;
+            padding-right: 50px
+        }
+
+        #btn {
+            margin: 30px auto;
+            font-size: 20px;
+            letter-spacing: 4px;
+            outline: none;
+            border: 1px solid black;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: .5s;
+            background: linear-gradient(white,pink);
+        }
+        #btn:hover{
+            background:red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sign up</h1>
+        <label for="Name" id="vv">Name:</label>
+        <input type="text" name="Name" placeholder="Enter your name" id="vt">
+        <label for="Email" id="vv">Email:</label>
+        <input type="email" placeholder="Enter your vaild email id" id="vt"><br><br>
+        <label for="phone" id="vv">Mobile No:
+        <input type="tel" id="phone" name="phone" id="vt"></label><br><br>
+        <label for="password" id="vv">Create Your Password:</label>
+        <input type="password" id="vt">
+        <label for="password" id="vv">Confirm Your Password:</label>
+        <input type="password" name="confirm" id="vt">
+        <button id="btn">Submit</button>
+    </div>
+    </div>
+</body>
+
+</html>
